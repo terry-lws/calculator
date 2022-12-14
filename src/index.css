@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+:root{
+  --button-margin: 5px;
+}
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+.App{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator{
+  width: 400px;
+}
+
+.display{
+  color: white;
+  background-color: rgba(21, 23, 54, 0.877);
+  display: flex;
+  justify-content: right;
+  font-size: 30px;
+  height: 50px;
+  padding: 0 30px 0 0;
+  border-radius: 25px 25px 0 0;
+}
+
+.numbers{
+  background-color: rgb(38, 38, 41);
+  border-radius: 0 0 25px 25px;
+  padding: 10px 0 10px 0;
+}
+
+.row{
+  padding: 10px;
+}
+
+.buttons{
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  border-color: white;
+  border-radius: 25px;
+}
+
+.buttons:hover{
+  color: rgb(38, 38, 41);
+  cursor: default;
+  background-color: white;
+  transition-duration: 200ms;
+}
+
+.buttons.active{
+  color:green;
+}
