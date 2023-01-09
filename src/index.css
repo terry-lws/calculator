@@ -12,7 +12,7 @@
   display: flex;
   min-height: 100vh;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .calculator{
@@ -53,7 +53,7 @@
   text-align: center;
   width: 100%;
   border-color: white;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .buttons:hover{
