@@ -7,7 +7,7 @@ function App() {
     <div className="App">
         <div className="calculator">
           <div className='display'>
-            11111111111111111 + 217836182638
+            
           </div>
           <Buttons></Buttons>
       </div>
