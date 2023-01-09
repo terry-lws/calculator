@@ -8,17 +8,17 @@ import './index.css';
 
 const Numbers = () => {
 
-  // const [btnState, setBtnState] = useState(false);
-  
-  // function changeStyle(){
-  
-  //   setBtnState(btnState => !btnState);
-  // };
+  const [result, setResult] = useState("");
 
-  // let toggleClassCheck = btnState? ' active': '';
+  const handleClick = (e) => {
+
+  }
 
   return (
     <div className="numbers">
+      <form>
+        <input type="text" value={result}></input>
+      </form>
 
       <Container>
 
@@ -84,13 +84,13 @@ const Numbers = () => {
         </Row>
 
         <Row className='row'>
-          <Col sm={'6'}>
+          <Col>
             <Button className="buttons">0</Button>
           </Col>
           <Col>
             <Button className="buttons">.</Button>
           </Col>
-          <Col>
+          <Col sm={'6'}>
             <Button className="buttons">=</Button>
           </Col>
         </Row>
